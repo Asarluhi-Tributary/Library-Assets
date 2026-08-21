@@ -6,8 +6,8 @@ do not need to be copied into the document files.
 
 ## Where images go
 
-- Put Library images in [`Library/v1`](Library/v1).
-- Put Compendium images in [`Compendium/v1`](Compendium/v1).
+- Put Library images in [`Library/`](Library/).
+- Put Compendium images in [`Compendium/`](Compendium/).
 
 Use short lowercase filenames with words separated by hyphens, such as
 `genre-guides.png`. PNG is recommended for headers and other artwork that needs
@@ -17,8 +17,8 @@ An image's location becomes its `assets://` reference in the documents
 repository:
 
 ```text
-Library/v1/genre-guides.png
-assets://Library/v1/genre-guides.png
+Library/v2/genre-guides.png
+assets://Library/v2/genre-guides.png
 
 Compendium/v1/header-compendium.png
 assets://Compendium/v1/header-compendium.png
